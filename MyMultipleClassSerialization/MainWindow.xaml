@@ -1,0 +1,11 @@
+﻿<Window x:Class="MyMultipleClassSerialization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="155" Width="146.688" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Button Name="Load" Content="Load" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="112" Click="Load_Click"/>
+        <Button Name="Save" Content="Save" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="112" Click="Save_Click"/>
+        <Button Name="NewValues" Content="New Values" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="112" Click="NewValues_Click" />
+        <Button Name="Close" Content="Close" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="112" Click="Close_Click"/>
+    </Grid>
+</Window>
